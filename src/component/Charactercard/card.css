@@ -1,0 +1,54 @@
+.character-card {
+   position:relative;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .character-card:hover {
+    transform: scale(1.05);
+    cursor:pointer;
+  }
+  
+  .character-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .character-info {
+    padding: 1rem;
+  }
+  .status{
+    position:absolute;
+    background-color:green;
+    color:white;
+    max-width:80px;
+    padding:10px ;
+    border-radius: 10px;
+    top:0;
+    right:0;
+
+  }
+  
+  .character-info h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .character-info p {
+    margin: 0.25rem 0;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .no-characters {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #666;
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
