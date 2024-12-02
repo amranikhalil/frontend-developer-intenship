@@ -1,8 +1,19 @@
-# Getting Started with Create React App
+# Live Demo
+🌐 [Visit the Live App on Netlify]
+(https://taskfrontendaiesec.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+- Display a grid of Rick & Morty characters with images and details.
+- Search functionality for quick access to characters.
+- Click on a character to view detailed information on the right-hand side.
+- Responsive design for seamless use on all devices.
 
-## Available Scripts
+## Technologies Used
+
+- **Frontend**: React.js, CSS
+- **API**: [Rick & Morty REST API](https://rickandmortyapi.com/)
+- **Deployment**: Netlify
+- **Version Control**: GitHub
 
 In the project directory, you can run:
 
